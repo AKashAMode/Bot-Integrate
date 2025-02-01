@@ -1,129 +1,131 @@
-Organisation Setup and Chatbot Integration
-This project is a web application for setting up an organisation and integrating a chatbot. It includes a form for entering organisation details, a webpage scraping status dashboard, and a chatbot integration page. The application is built with React, Tailwind CSS, and Framer Motion for animations.
+# Organisation Setup and Chatbot Integration
 
-Live Demo
-Check out the live demo of the project here:
-👉 Live Demo
+This is a web application designed for setting up an organisation and integrating a chatbot. The application features an organisation setup form, a webpage scraping status dashboard, and a chatbot integration page. It is built using **React**, **Vite**, **Tailwind CSS**, and **Framer Motion** for smooth animations.
 
-Features
-Organisation Setup Form:
+## 🚀 Live Demo
 
-Enter company name, website URL, and description.
+👉 [Live Demo](#) *(https\://eclectic-cupcake-134c45.netlify.app/)*
 
-Automatically fetches a meta description for the website.
+## ✨ Features
 
-Form fields have smooth animations.
+### 📋 Organisation Setup Form
 
-Webpage Scraping Status:
+- Enter company name, website URL, and description.
+- Automatically fetches the meta description from the provided website URL.
+- Smooth animations for form transitions using Framer Motion.
 
-Displays the status of webpages (Scraped, Pending, Detected).
+### 📊 Webpage Scraping Status
 
-Click on a webpage to view its scraped data.
+- Displays the status of webpages:
+  - **Scraped** ✅
+  - **Pending** ⏳
+  - **Detected** 🔍
 
-Loading Animation:
+### 🤖 Chatbot Integration
 
-A professional loading spinner appears when the form is submitted.
+- Simple and intuitive interface for chatbot configuration.
+- Real-time chatbot response previews.
+- Easy-to-manage chatbot settings.
 
-Responsive Design:
+## 🛠️ Tech Stack
 
-The application is fully responsive and works seamlessly on all devices.
+- **React** (with Vite for fast development)
+- **Tailwind CSS** (for responsive and modern UI)
+- **Framer Motion** (for animations)
 
-Animations:
+## ⚡ Getting Started
 
-Smooth animations for form fields, buttons, and transitions using Framer Motion.
+### Prerequisites
 
-Chatbot Integration:
+- Node.js (v14 or later)
+- npm or yarn
 
-A dedicated page for chatbot integration and testing (coming soon).
+### Installation
 
-Technologies Used
-React: A JavaScript library for building user interfaces.
+```bash
+# Clone the repository
+git clone https://github.com/your-username/organisation-chatbot.git
 
-Tailwind CSS: A utility-first CSS framework for styling.
+# Navigate to the project directory
+cd organisation-chatbot
 
-Framer Motion: A production-ready motion library for React.
-
-React Router DOM: For navigation between pages.
-
-Netlify: For hosting the live demo.
-
-How to Run Locally
-Follow these steps to set up the project on your local machine:
-
-Prerequisites
-Node.js and npm installed on your machine.
-
-Steps
-Clone the Repository:
-
-bash
-Copy
-git clone https://github.com/your-username/organisation-setup.git
-cd organisation-setup
-Install Dependencies:
-
-bash
-Copy
+# Install dependencies
 npm install
-Run the Development Server:
+# or
+yarn install
+```
 
-bash
-Copy
-npm start
-Open the Application:
+### Running the Development Server
 
-Visit http://localhost:3000 in your browser.
+```bash
+# Start the Vite development server
+npm run dev
+# or
+yarn dev
+```
 
-Folder Structure
-Copy
-organisation-setup/
-├── public/
-│   └── index.html
+The app will be running at `http://localhost:5173` by default.
+
+### Build for Production
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+# or
+yarn preview
+```
+
+## 📁 Project Structure
+
+```
+organisation-chatbot/
+├── public/               # Static assets
 ├── src/
-│   ├── components/
-│   │   ├── Home.js
-│   │   ├── OrganisationSetup.js
-│   │   ├── Integration.js
-│   ├── App.js
-│   ├── index.js
-│   └── styles/
-│       └── index.css
-├── package.json
-├── README.md
-└── ...
-Screenshots
-Organisation Setup Form
-Organisation Setup Form
+│   ├── components/       # Reusable components (Form, Status Dashboard, Chatbot UI)
+│   ├── pages/            # Application pages
+│   ├── App.jsx           # Main App component
+│   ├── main.jsx          # Entry point
+│   └── index.css         # Tailwind CSS styles
+├── package.json          # Project metadata and dependencies
+└── vite.config.js        # Vite configuration
+```
 
-Webpage Scraping Status
-Webpage Scraping Status
+## 🎨 UI/UX Highlights
 
-Loading Animation
-Loading Animation
+- Modern, clean interface using Tailwind CSS.
+- Smooth, engaging animations powered by Framer Motion.
+- Responsive design optimized for all devices.
 
-Contributing
-Contributions are welcome! If you'd like to contribute, please follow these steps:
+## 🙌 Contributing
 
-Fork the repository.
+Contributions are welcome! 🚀
 
-Create a new branch (git checkout -b feature/YourFeatureName).
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
 
-Commit your changes (git commit -m 'Add some feature').
+## 📄 License
 
-Push to the branch (git push origin feature/YourFeatureName).
+This project is licensed under the [MIT License](LICENSE).
 
-Open a pull request.
+## 📞 Contact
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+For any inquiries or feedback, feel free to reach out:
 
-Contact
-If you have any questions or feedback, feel free to reach out:
+- **Email:** [your.email@example.com](mailto\:your.email@example.com)
+- **LinkedIn:** [Your LinkedIn](#) *(Add your LinkedIn link here)*
+- **GitHub:** [Your GitHub](#) *(Add your GitHub profile link here)*
 
-Email: your-email@example.com
+---
 
-GitHub: your-username
+⭐️ *If you found this project helpful, please give it a star!* ⭐️
 
-LinkedIn: Your Name
-
-Enjoy using the Organisation Setup and Chatbot Integration app! 🚀
