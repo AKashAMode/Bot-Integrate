@@ -121,9 +121,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any inquiries or feedback, feel free to reach out:
 
-- **Email:** [your.email@example.com](mailto\:your.email@example.com)
-- **LinkedIn:** [Your LinkedIn](#) *(Add your LinkedIn link here)*
-- **GitHub:** [Your GitHub](#) *(Add your GitHub profile link here)*
+- **Email:** [your.email@example.com](mailto\:akashamode80@gmail.com)
+
 
 ---
 
