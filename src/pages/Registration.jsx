@@ -369,7 +369,7 @@ function Registration() {
             exit={{ opacity: 0, x: 50 }}
             className="space-y-4"
           >
-            <p className="text-center text-gray-700">Enter the verification code sent to {email}</p>
+            <p className="text-center text-gray-700">Enter the verification code sent to  {email}</p>
             <input
               type="text"
               placeholder="Verification Code"
